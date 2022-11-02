@@ -1,0 +1,30 @@
+table.schedule {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+table.schedule td, th {
+    padding: 6px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+table.schedule thead {
+    background-color: darkgrey;
+    color: black;
+}
+table.schedule tfoot {
+    background-color: black;
+    color: white;
+}
+td.spanned {
+    background-color: red;
+    color: aliceblue;
+}
+td.sleep {
+    background-color: lightskyblue;
+}
+td.school {
+    background-color: wheat;
+    color: brown;
+}
